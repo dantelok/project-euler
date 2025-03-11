@@ -1,6 +1,6 @@
 def digits_n_power(n):
     equal_list = []
-    upper_limit = 6 * (9 ** 5)
+    upper_limit = 6 * (9 ** n)
     for num in range(2, upper_limit):
         digit_sum = 0
         num_str = str(num)
