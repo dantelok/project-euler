@@ -6,7 +6,7 @@ def is_pandigital(a, b, c):
 def pandigital_product():
     products = set()
 
-    # Case 1: 1-digit × 4-digit = 4-digit (e.g., 9 × 1234 = 11106)
+    # Case 1: 1-digit × 4-digit = 5-digit (e.g., 9 × 1234 = 11106)
     for a in range(1, 10):  
         for b in range(1000, 10000):  
             c = a * b
